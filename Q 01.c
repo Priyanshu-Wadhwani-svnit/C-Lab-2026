@@ -10,6 +10,6 @@ int main (){
 	scanf("%f",&rate);
 	
 	float interest = principal*rate*time/100;
-	printf("\n\n\nThe simple interest of your data is: %f",interest);
+	printf("\n\n\nThe simple interest of your data is: %.2f",interest);
 	
 	return 0;}
