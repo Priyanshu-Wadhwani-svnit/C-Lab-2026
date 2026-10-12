@@ -1,16 +1,23 @@
-#include <stdio.h> 
+#include<stdio.h>
+int main()
+{
+	int i,j,n=5,l;
 
-int main(){
-  
-	int a,b;
-	
-	for (a=1;a<6;a++){
-		for (b=1;b<=a;b++){
-			printf("*",b);
+	for(i=1;i<=n;i++)
+	{ 
+		for(j=n-1-i;j>=0;j--)
+		{
+			
+			printf(" ");
+			
 		}
+		for(l=1;l<=(2*i)-1;l++)
+		{
+			printf("*");
+		}
+	
 		printf("\n");
 	}
-  
-  
-  return 0;
-  }
+	
+	
+}
