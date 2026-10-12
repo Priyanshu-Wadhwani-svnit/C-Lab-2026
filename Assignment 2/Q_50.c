@@ -26,8 +26,8 @@ for (j = 0;j< size-i; j++){
    }
    
    }
-  
+  printf("\n\n");
  for (i = 0;i<size;i++){
-  printf("%d\n",arr[i]);}
+  printf("%d\t",arr[i]);}
   
- return 0;
+ return 0;}
