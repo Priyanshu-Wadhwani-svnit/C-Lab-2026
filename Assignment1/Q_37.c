@@ -8,6 +8,6 @@ scanf("%d",&n);
 
 while(n>=i){
 	printf("%d ",i);
-	i+=2;
+	i+=2;}
 	return 0;
-}}
+}
