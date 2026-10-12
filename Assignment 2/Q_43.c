@@ -12,6 +12,6 @@ int main(){
 		
 	}
 	
-	printf("%d",sum);
+	printf("sum of all elements is %d",sum);
 	return 0;
 }
