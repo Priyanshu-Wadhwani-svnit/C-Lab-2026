@@ -2,7 +2,7 @@
 
 int main(){
 	
-	int a,i,n,max,smax,j;
+	int a,i,n,max,smax,j,flag=0;
 	
 	int ar[50];
 	printf("Enter the number of elements(<50)");
@@ -19,16 +19,17 @@ int main(){
 			if (ar[i]> max){
 			smax = max;
 			max = ar[i];
+				
 		}
 		else if (ar[i]>smax && ar[i]!= max ){
 			smax = ar[i];
 		}
-			
+			flag =1;
 			break;
 		}
 	}
 	
-		
+	if (flag ==1)	{
 	for(j=i+1;j<n;j++){
 		if (ar[j]> max){
 			smax = max;
@@ -39,7 +40,8 @@ int main(){
 		}
 	}
 
-printf("%d is maximum and %d is second maximum",max,smax);
+printf("%d is maximum and %d is second maximum",max,smax);}
+	else {printf("No second max element found");}
 
 	return 0;
 }
