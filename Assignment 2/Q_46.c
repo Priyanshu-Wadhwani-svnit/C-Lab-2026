@@ -25,20 +25,11 @@ int main(){
 			smax = ar[i];
 		}
 			flag =1;
-			break;
+		
 		}
 	}
 	
-	if (flag ==1)	{
-	for(j=i+1;j<n;j++){
-		if (ar[j]> max){
-			smax = max;
-			max = ar[j];
-		}
-		else if (ar[j]>smax && ar[j]!= max ){
-			smax = ar[j];
-		}
-	}
+if (flag ==1){
 
 printf("%d is maximum and %d is second maximum",max,smax);}
 	else {printf("No second max element found");}
