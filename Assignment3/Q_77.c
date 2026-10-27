@@ -12,7 +12,7 @@ int main(){
 	printf("Enter 2nd string:\n");
 	gets(str2);
 	
-	printf("%d is the length of the string.",strlen(str1));
+	printf("%d is the length of the 1st string.\n",strlen(str1));
 	
 	printf("The copied string is\n");
 	strcpy(cpystr,str1);
@@ -20,6 +20,7 @@ int main(){
 	
 	printf("Concating string 1 and string 2 we get\n");
 	
-	catstr = strcat(str1,str2);
+	strcat(str1,str2);
+	puts(str1);
 	return 0;
 }
