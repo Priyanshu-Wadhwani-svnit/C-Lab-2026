@@ -22,6 +22,6 @@ int main(){
 	}
 	
 	printf("The max element is %d",max);
-	
+	free(ptr);
 	return 0;
 }
