@@ -13,7 +13,6 @@ void input(Book *ptr){
 	getchar();
 	gets(ptr->title);
 	printf("Enter Author Name: ");
-	getchar();
 	gets(ptr->author);
 	printf("Enter number of pages: ");
 	scanf("%d",&ptr->pages);
