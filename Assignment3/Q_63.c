@@ -19,6 +19,6 @@ scanf("%d",&y);
 
 rev();
 
-printf ("Now the value of x is %d and that of b is %d",x,y);
+printf ("Now the value of x is %d and that of y is %d",x,y);
 return 0;
 }
