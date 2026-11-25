@@ -2,7 +2,9 @@
 int main(){
 	int count =0,k=0;
 	char str1[50],str2[50],strcon[100];
+	printf("Enter The first String: \n");
 	gets(str1);
+	printf("Enter The second String: \n");
 	gets(str2);
 
 while(str1[count]){
