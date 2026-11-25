@@ -24,6 +24,11 @@ int main(){
 	printf("Enter the Number: ");
 	scanf("%d",&n);
 	res = isprime(n);
-	printf("%d",res);
+	if (res == 0){
+		printf("Not prime");
+	}
+	else{
+		printf("Prime");
+	}
 	return 0;
 }
